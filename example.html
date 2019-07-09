@@ -1,0 +1,16 @@
+<script src="https://cdn.zoomcharts-cloud.com/1/nightly/zoomcharts.js"></script>
+<div id="chart"></div>
+<style>#chart {height: 100vh} body: {padding: 0px; margin: 0px} </style>
+<script>
+
+    let n = new NetChart({
+        container: "chart",
+        navigation: {
+            mode: "showall",
+        },
+        data: [
+            {url: "/data"}
+        ],
+    });
+
+</script>
